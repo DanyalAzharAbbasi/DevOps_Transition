@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
+    "sonar": "sonarqube-scanner"
   },
   "dependencies": {
     "express": "^4.13.3",
-    "sonar-scanner": "3.0.1"
+    "sonarqube-scanner": "3.0.1"
   },
   "engines": {
     "node": "4.0.0"
