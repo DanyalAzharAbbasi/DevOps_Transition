@@ -2,10 +2,10 @@ const scanner = require('sonarqube-scanner');
 
 scanner(
   {
-    serverUrl : 'http://10.0.8.56:9000',
-    token : "sqp_9f76ee305dbb56a9b3671337e535a827acd3ad4d",
+    serverUrl : 'http://10.0.3.46:9000',
+    token : "sqp_af0f4273935139e01707323c94716660460a294e",
     options: {
-      'sonar.projectName': 'transition'
+      'sonar.projectName': Transition'
     }
   },
   () => process.exit()
