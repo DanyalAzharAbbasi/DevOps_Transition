@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "sonarqube-scanner": "3.0.1"
+    "sonarqube-scanner": "^3.0.1"
   },
   "engines": {
     "node": "4.0.0"
